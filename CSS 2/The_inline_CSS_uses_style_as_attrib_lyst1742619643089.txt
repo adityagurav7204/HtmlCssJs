@@ -1,0 +1,5 @@
+The inline CSS uses style as attribute. It is called as inline as it is written in the same line as that of the tag.
+
+The Internal CSS uses style as tag in head section. It is called as internal as the style tag is written inside the html page in head section.
+
+The External CSS uses styling effect in separate file. It is called as external as the styling effect is written outside the html page. We must use link tag in head section to link the CSS file with the html page.

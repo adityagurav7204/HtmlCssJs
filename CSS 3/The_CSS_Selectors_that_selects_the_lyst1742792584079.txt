@@ -1,0 +1,16 @@
+The CSS Selectors that selects the web element to apply the style.
+
+Page 1: Resume:
+
+Photo at left corner
+Right Name, Phone and email id
+Objective
+Academic details in tabular format
+Expertise: List
+Interest & hobbies: List
+Declaration with sign
+
+Page 2: Dashboard with few links
+Link 1: LinkedIn profile
+Link 2: Resume/Page 1 with back button
+Link 3: Contact: WhatsApp no email id address GitHub with back button

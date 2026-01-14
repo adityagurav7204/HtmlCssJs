@@ -1,0 +1,23 @@
+Browser is an application via which we can surf the internet.
+
+The pages which will execute in browser.
+
+HTML page can be opened in 2 ways:
+
+A. In browser - for getting the output
+B. In editor - for editing
+
+Every HTML page has extension ".html"
+
+The HTML page is made up of tags.
+
+Tag and Attribute
+
+Tag always comes with < and >
+
+<name type="firstName">Shreya</name>
+
+Attributes are always written in start tag.
+We can write n attribute for any tag.
+
+Tags come with start tag and end tag not attributes.

@@ -1,0 +1,17 @@
+The JavaScript is the script(code or program) written in Java in HTML page.
+
+The main motive of JavaScript is to process the web page.
+
+The JavaScript code is written in head section of HTML page.
+
+We must use <script> tag to wrap the JS code in HTML page.
+
+The JavaScript has got the power to change the HTML content or even the CSS of a web page.
+
+1. Hello world JavaScript
+2. Basic things in JS which are similar to Java
+3. alert boxes: alert, confirm and prompt
+
+To create a variable we have 2 important keywords in JS, var and let.
+Q. Diff between var and let?
+We can create a constant variable in JS using a keyword const.

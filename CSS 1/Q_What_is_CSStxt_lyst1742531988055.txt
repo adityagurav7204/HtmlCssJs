@@ -1,0 +1,26 @@
+Q. What is CSS?
+A. CASCADING STYLE SHEETS
+
+Q. Why to use CSS?
+A. To make the web page attractive and colorful with style.
+
+Q. What are the types of CSS?
+A. inline, internal and external
+
+Syntax of inline CSS:
+
+<tagName style="property:value;property:value;property:value">
+
+</tagName>
+
+Example of inline CSS:
+
+<h1 style="font-family:'courier';font-size:'50px';color:'Brown'">
+	Hello World!
+</h1>
+
+The Inline CSS actually fits the styling effect in a single line.
+
+The tag is written with the style attribute.
+
+The internal CSS uses style as tag and not attribute.
