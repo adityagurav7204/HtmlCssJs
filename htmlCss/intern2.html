@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul{
+            list-style:none ;
+            margin: padding 0;
+            display:flex;
+            gap:1rem;
+        }
+        nav li{
+            position: relative;
+        }
+        nav a{
+            display:block;padding: 5rem 1rem;background-color: rgb(36, 33, 33);
+            color:#fff;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        nav li:hover > a{background: #1e88e5;}
+        nav li ul{
+            position:absolute;
+            flex-direction:column;gap:.4rem;
+            padding-top:.5rem;
+        }
+        nav li:hover ul{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="" #>Products</a>
+                <ul>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>

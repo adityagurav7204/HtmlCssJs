@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding:40px;
+            background: #f2f2f2;
+
+        }
+         .container{
+            max-width: 400px;
+            margin:auto;
+            background: white;
+            padding: 41px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(0, 0,0,0.1);
+        }
+        h2{
+            text-align:center;
+            color: #0085b1;
+        }
+         input[type="number"],button{
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border:1px solid #ccc;
+        }
+        button{
+            background-color: #a72848;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+         button:hover{
+            background-color: #6fab89;
+        }
+         .result{
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: rgb(0, 157, 255);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <h2>Simple Calculator</h2>
+
+        <label for="addition">First Number :</label>
+        <input type="number" id="addition" placeholder="Enter First Number"/>
+       
+        <label for="substraction">Second Number :</label>
+        <input type="number" id="substraction" placeholder="Enter Second Number"/>
+
+        <button onclick="AddNum()">Addition</button>
+        <button onclick="SubNum()">Substraction</button>
+
+        <div class="result" id="result1"></div>
+        <div class="result" id="result2"></div>
+    </div>
+
+    <script>
+        function AddNum(){
+            const Num1 = parseFloat(document.getElementById("addition").value);
+            const Num2 = parseFloat(document.getElementById("substraction").value);
+        
+            if(isNaN(Num1) || isNaN(Num2) ){
+                document.getElementById("result").innerText="please enter all values correctly.";
+            }
+            const add = Num1+Num2;
+            document.getElementById("result1").innerText =` Addition: ${add.toFixed(2)}`;
+        } 
+            
+        function SubNum()
+        {
+            const Num1 = parseFloat(document.getElementById("addition").value);
+            const Num2 = parseFloat(document.getElementById("substraction").value);
+        
+            if(isNaN(Num1) || isNaN(Num2) ){
+                document.getElementById("result").innerText="please enter all values correctly.";
+            }
+            
+            const sub = Num1-Num2;
+            document.getElementById("result2").innerText =` substraction: ${sub.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
